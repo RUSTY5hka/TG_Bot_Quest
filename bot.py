@@ -3,7 +3,7 @@ from telebot import TeleBot
 from telebot.types import ReplyKeyboardMarkup
 
 token = ""
-bot = TeleBot(token=token)
+bot=TeleBot(token=token)
 
 def read_json(file_name="players.json"):
     with open(file_name, "r", encoding="utf-8-sig") as file:
